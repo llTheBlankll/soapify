@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-start {
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #64264d;
+	overflow-x: hidden;
+	max-width: 100%;
+	z-index: -2;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 20vh; /* Center the content vertically */
+}
+
+.container-100 {
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+header {
+	background-color: #64264d;
+	padding: 20px 0;
+	width: 100%; /* Stretch the header across the entire container */
+	display: flex;
+	font-family: "EB Garamond";
+}
+
+.bubble1 {
+	position: absolute;
+	left: 150vh;
+	top: 50vh;
+	z-index: 1;
+	/* Additional styling properties */
+	width: 50vh;
+	height: 50vh;
+}
+
+.bubble2 {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	/* Additional styling properties */
+	width: 200px;
+	height: 200px;
+}
+
+.bubble3 {
+	position: absolute;
+	left: 0vh;
+	top: 50vh;
+	/* Additional styling properties */
+	width: 70vh;
+	height: 70vh;
+	z-index: -0;
+}
+
+.bubble4 {
+	position: absolute;
+	left: 10vh;
+	top: 105vh;
+	/* Additional styling properties */
+	width: 50vh;
+	height: 50vh;
+	z-index: -0;
+}
+
+.bubble5 {
+	position: absolute;
+	left: 150vh;
+	top: 110vh;
+	/* Additional styling properties */
+	width: 50vh;
+	height: 50vh;
+	z-index: -0;
+}
+
+.bubble6 {
+	position: absolute;
+	left: 153vh;
+	top: 188vh;
+	/* Additional styling properties */
+	width: 50vh;
+	height: 50vh;
+	z-index: -0;
+}
+
+.bubble7 {
+	position: absolute;
+	left: 0;
+	top: 250vh;
+	/* Additional styling properties */
+	width: 25vh;
+	height: 25vh;
+}
+
+.square-yellow-container {
+	width: auto;
+	height: auto;
+	background-color: #c1ac76;
+	padding: 10px;
+}
+
+.logo {
+	justify-content: center;
+	margin-bottom: 42px;
+	/* Centered logo styles can be added here */
+}
+
+nav {
+	/* Navigation bar styles can be added here */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 42px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #d1c6ee;
+}
+
+nav ul li a:hover {
+	color: #d1c6ee;
+}
+
+.light-bg {
+	background-color: #64264d;
+	background-image: url("images/light 1.png"); /* Assuming 'light 1.png' is in the same directory */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 100px; /* Add padding to create space for content */
+	height: auto;
+}
+
+footer {
+	background-color: #896475;
+	width: 100%;
+	font-family: "Cormorant Garamond";
+	color: #F6DB91;
+	font-size: 18px;
+	z-index: -1;
+}
+
+footer p {
+	margin: 0;
+}
+
+.content-start {
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.content-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.content-end {
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.p-5 {
+	padding: 5px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+.content-wrapper {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(circle at center, rgba(255,244,199, 0.8), rgba(255,244,199, 0)); /* Soft yellow gradient */
+	z-index: -1; /* Ensure overlay is on top of content */
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	background-color: #64264d;
+	border-radius: 50%;
+}
+
+.circle-selected {
+	background-color: #c1ac73;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.content-space-between {
+	justify-content: space-between;
+}
+
+.item-center {
+	align-items: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-justify {
+	text-align: justify;
+
+}
+
+.test-border {
+	border: 1px solid black;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.blur-overlay {
+	background-image: url("images/light 1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
