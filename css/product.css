@@ -310,10 +310,19 @@ footer p {
 }
 
 .circle {
+  justify-content: flex-start;
   width: 64px;
   height: 64px;
   background-color: #7b6589;
   border-radius: 50%;
+}
+
+.circle img {
+  margin-left: -32px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  justify-content: start;
 }
 
 .circle-selected {
@@ -376,17 +385,18 @@ footer p {
 
 .order-now {
   background-color: #c1ac73; /* Adjust to match your desired purple color */
-  width: 48%;
+  width: 250px;
   color: white;
-  padding: 14px;
+  padding: 4px 4px 4px 4px;
   border: none;
   border-radius: 40px; /* Adjust for desired corner roundness */
   cursor: pointer; /* Indicates the element is clickable */
-  justify-content: center;
+  justify-content: left;
   display: flex;
   align-items: center;
   font-family: 'EB Garamond';
   font-size: 24px;
+  transition: 0.4s ease;
 }
 
 .ml-5 {
@@ -406,4 +416,12 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+a {
+  transition: 0.4s ease;
+}
+
+a:hover {
+  color: #c1ac73;
 }
