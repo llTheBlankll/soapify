@@ -152,8 +152,8 @@ header {
 .bubble1 {
   position: absolute;
   left: 150vh;
-  top: 50vh;
-  z-index: 1;
+  top: 260vh;
+  z-index: 0;
   /* Additional styling properties */
   width: 50vh;
   height: 50vh;
@@ -173,15 +173,15 @@ header {
   left: 0vh;
   top: 50vh;
   /* Additional styling properties */
-  width: 70vh;
-  height: 70vh;
+  width: 40vh;
+  height: 40vh;
   z-index: -0;
 }
 
 .bubble4 {
   position: absolute;
   left: 10vh;
-  top: 105vh;
+  top: 150vh;
   /* Additional styling properties */
   width: 50vh;
   height: 50vh;
