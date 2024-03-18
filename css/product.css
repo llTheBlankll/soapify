@@ -7,8 +7,44 @@
 
 .product-title {
   color: #f6db91;
+  font-size: 48px;
+  font-weight: lighter;
+  font-family: "EB Garamond";
+}
+
+.rad-pics {
+  border-radius: 20%;
+}
+
+.section-title {
+  color: #f6db91;
   font-size: 32px;
   font-weight: lighter;
+  margin-bottom: 48px;
+}
+
+.more-on-soapify {
+  color: #f6db91;
+  font-size: 36px;
+  font-weight: lighter;
+  margin-bottom: 48px;
+  font-family: "EB Garamond";
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+
+
+.product-pictures {
+  width: 256px;
+  height: 256px;
+}
+
+
+.item-start {
+  align-items: flex-start;
 }
 
 .flex-column {
@@ -50,14 +86,11 @@ body {
   margin: 0 auto;
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 20vh; /* Center the content vertically */
 }
 
 .product-container {
-  margin: 0 auto;
-  padding: 20px;
+  margin: -50px auto 0px auto;;
+  padding: 18px;
   display: flex;
   min-height: 50vh; /* Center the content vertically */
 }
@@ -103,7 +136,6 @@ body {
 }
 
 .container-100 {
-  max-width: 100%;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -278,8 +310,8 @@ footer p {
 }
 
 .circle {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   background-color: #7b6589;
   border-radius: 50%;
 }
@@ -319,13 +351,36 @@ footer p {
   width: 100%;
 }
 
+.price-box {
+  width: 224px;
+  height: 84px;
+}
+
+.more-from-soapify-price {
+  margin-top: -8vh;
+  color: #64264D;
+
+}
+
+.mt-n-10 {
+  margin-top: -10px;
+}
+
+.price {
+  position: relative;
+  margin-top: -88px;
+  font-family: 'EB Garamond';
+  color: #64264d;
+  font-size: 42px;
+}
+
 .order-now {
   background-color: #c1ac73; /* Adjust to match your desired purple color */
   width: 48%;
   color: white;
   padding: 14px;
   border: none;
-  border-radius: 36px; /* Adjust for desired corner roundness */
+  border-radius: 40px; /* Adjust for desired corner roundness */
   cursor: pointer; /* Indicates the element is clickable */
   justify-content: center;
   display: flex;
