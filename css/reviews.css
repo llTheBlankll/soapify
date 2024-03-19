@@ -272,20 +272,27 @@ footer p {
   justify-content: center;
 }
 
-.about-us {
+.company {
   color: #f6db91;
-  height: 7vh;
+  min-height: 7vh;
   font-size: 24px;
   font-weight: lighter;
   font-family: "EB Garamond", serif;
-  background-color: #9a6b9d;
+  background-color: #7a6488;
 }
 
-.about-us-description {
-  color: #bfed55;
-  font-size: 31px;
-  font-weight: lighter;
-  font-family: "EB Garamond", serif;
+.company img {
+  width: 512px;
+  height: 512px;
+  margin-top: -14vh;
+}
+
+.company-description {
+  margin-top: -8vh;
+  color: #deccb5;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
   text-align: justify;
   z-index: 3;
 }
