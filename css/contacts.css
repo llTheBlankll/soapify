@@ -16,10 +16,35 @@
 	border-radius: 20%;
 }
 
+.contact-us-container {
+  width: 80%;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-platform .contact  {
+  justify-content: center;
+  align-items: center;
+  margin-top: -8vh;
+}
+
+.contact-platform .contact-description {
+  font-family: 'EB Garamond';
+  font-size: 48px;
+  color: #F6DB91;
+  margin-top: -8vh;
+}
+
+.contact-platform .contact img {
+  width: 50%;
+}
+
+
 .section-title {
 	color: #f6db91;
 	font-family: "EB Garamond", serif;
-	font-size: 28px;
+	font-size: 38px;
 	font-weight: lighter;
 	margin-bottom: 48px;
 }
@@ -80,7 +105,6 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 20px;
 	display: flex;
 }
 
@@ -147,71 +171,31 @@ header {
 
 .bubble1 {
 	position: absolute;
-	left: 150vh;
-	top: 220vh;
+	left: -30vh;
+	top: 50vh;
 	z-index: 0;
 	/* Additional styling properties */
-	width: 50vh;
-	height: 50vh;
+	width: 90vh;
+	height: 90vh;
 }
 
 .bubble2 {
 	position: absolute;
-	bottom: 50px;
-	right: 50px;
+  top: 215vh;
+  left: -7vh;
 	/* Additional styling properties */
-	width: 200px;
-	height: 200px;
+	width: 50vh;
+	height: 50vh;
 }
 
 .bubble3 {
 	position: absolute;
-	left: 0;
-	top: 50vh;
+	right: -45vh;
+	top: 100vh;
 	/* Additional styling properties */
-	width: 40vh;
-	height: 40vh;
+	width: 100vh;
+	height: 100vh;
 	z-index: -1;
-}
-
-.bubble4 {
-	position: absolute;
-	left: 10vh;
-	top: 150vh;
-	/* Additional styling properties */
-	width: 50vh;
-	height: 50vh;
-	z-index: -1;
-}
-
-.bubble5 {
-	position: absolute;
-	left: 85vh;
-	top: 50vh;
-	/* Additional styling properties */
-	width: 130vh;
-	height: 130vh;
-	z-index: -1;
-}
-
-.bubble6 {
-	position: absolute;
-	left: 153vh;
-	top: 188vh;
-	/* Additional styling properties */
-	width: 50vh;
-	height: 50vh;
-	z-index: -1;
-}
-
-.bubble7 {
-	position: absolute;
-	left: 0;
-	top: 250vh;
-	/* Additional styling properties */
-	width: 25vh;
-	height: 25vh;
-  z-index: -1;
 }
 
 .square-yellow-container {
@@ -379,9 +363,15 @@ footer p {
 	width: 100%;
 }
 
+.price-box {
+	width: 224px;
+	height: 84px;
+}
+
 .more-from-soapify-price {
 	margin-top: -8vh;
 	color: #64264D;
+
 }
 
 .mt-n-10 {
@@ -427,6 +417,38 @@ footer p {
 	font-size: 34px;
 	color: #621c47;
 	text-align: justify;
+}
+
+.previous-image {
+	position: absolute;
+	background-color: transparent;
+	border: 0;
+	color: #c1ac73;
+}
+
+.next-image {
+	position: absolute;
+	left: 128.6vh;
+	background-color: transparent;
+	border: 0;
+	color: #c1ac73;
+	height: auto;
+}
+
+.order-now {
+	background-color: #c1ac73; /* Adjust to match your desired purple color */
+	width: 250px;
+	color: white;
+	padding: 4px 4px 4px 4px;
+	border: none;
+	border-radius: 40px; /* Adjust for desired corner roundness */
+	cursor: pointer; /* Indicates the element is clickable */
+	justify-content: left;
+	display: flex;
+	align-items: center;
+	font-family: 'EB Garamond', serif;
+	font-size: 24px;
+	transition: 0.4s ease;
 }
 
 .facts {
