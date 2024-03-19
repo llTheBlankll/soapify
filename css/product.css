@@ -217,6 +217,16 @@ header {
   height: 25vh;
 }
 
+.purple1 {
+  position: absolute;
+  left: -45vh;
+  top: 220vh;
+  /* Additional styling properties */
+  width: 90vh;
+  height: 90vh;
+  transform: rotate(40deg);
+}
+
 .square-yellow-container {
   width: auto;
   height: auto;

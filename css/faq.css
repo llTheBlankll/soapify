@@ -267,6 +267,17 @@ footer p {
 	margin: 0;
 }
 
+.purple1 {
+	position: absolute;
+	left: 70vh;
+	top: 240vh;
+	/* Additional styling properties */
+	width: 45vh;
+	height: 45vh;
+	transform: rotate(40deg);
+	z-index: 3;
+}
+
 .content-start {
 	justify-content: flex-start;
 }

@@ -24,14 +24,6 @@
   margin-bottom: 48px;
 }
 
-.more-on-soapify {
-  color: #f6db91;
-  font-size: 36px;
-  font-weight: lighter;
-  margin-bottom: 48px;
-  font-family: "EB Garamond", serif;
-}
-
 .mt-10 {
   margin-top: 10px;
 }
@@ -144,70 +136,100 @@ header {
 
 .bubble1 {
   position: absolute;
-  left: 150vh;
-  top: 220vh;
-  z-index: 0;
+  left: 20vh;
+  top: 230vh;
+  z-index: -0;
   /* Additional styling properties */
-  width: 50vh;
-  height: 50vh;
-}
-
-.bubble2 {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  /* Additional styling properties */
-  width: 200px;
-  height: 200px;
-}
-
-.bubble3 {
-  position: absolute;
-  left: 0;
-  top: 50vh;
-  /* Additional styling properties */
-  width: 40vh;
-  height: 40vh;
-  z-index: -1;
+  width: 75vh;
+  height: 75vh;
 }
 
 .bubble4 {
   position: absolute;
-  left: 10vh;
-  top: 150vh;
+  right: 20vh;
+  top: 160vh;
+  z-index: -0;
   /* Additional styling properties */
-  width: 50vh;
-  height: 50vh;
-  z-index: -1;
+  width: 90vh;
+  height: 90vh;
 }
 
-.bubble5 {
+.bubble2 {
   position: absolute;
-  left: 85vh;
+  top: 85vh;
+  left: 18vh;
+  /* Additional styling properties */
+  width: 90vh;
+  height: 90vh;
+}
+
+.bubble3 {
+  position: absolute;
+  left: -30vh;
   top: 50vh;
   /* Additional styling properties */
-  width: 130vh;
-  height: 130vh;
+  width: 80vh;
+  height: 80vh;
   z-index: -1;
 }
 
-.bubble6 {
+.purple1 {
   position: absolute;
-  left: 153vh;
-  top: 188vh;
+  left: 35vh;
+  top: 38vh;
+  /* Additional styling properties */
+  width: 120vh;
+  height: 120vh;
+  z-index: -1;
+}
+
+.purple2 {
+  position: absolute;
+  left: 40vh;
+  top: 112vh;
+  /* Additional styling properties */
+  width: 120vh;
+  height: 120vh;
+  z-index: -1;
+}
+
+.purple3 {
+  position: absolute;
+  left: 35vh;
+  top: 187vh;
+  /* Additional styling properties */
+  width: 120vh;
+  height: 120vh;
+  z-index: -1;
+}
+
+.frame1 {
+  position: absolute;
+  left: 72vh;
+  top: 68vh;
   /* Additional styling properties */
   width: 50vh;
   height: 50vh;
   z-index: -1;
 }
 
-.bubble7 {
+.frame2 {
   position: absolute;
-  left: 0;
-  top: 250vh;
+  left: 72.35vh;
+  top: 143.35vh;
   /* Additional styling properties */
-  width: 25vh;
-  height: 25vh;
+  width: 50vh;
+  height: 50vh;
+  z-index: -1;
+}
+
+.frame3 {
+  position: absolute;
+  left: 72.35vh;
+  top: 218.25vh;
+  /* Additional styling properties */
+  width: 50vh;
+  height: 50vh;
   z-index: -1;
 }
 
@@ -281,10 +303,26 @@ footer p {
   background-color: #7a6488;
 }
 
-.company img {
-  width: 512px;
-  height: 512px;
-  margin-top: -14vh;
+.reviews-container {
+  width: 100%;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-container .flex {
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-container img {
+  width: 384px;
+  margin: 256px 0 128px 0;
+}
+
+.tagline {
+  width: 2034px;
+  height: 400px;
 }
 
 .company-description {
