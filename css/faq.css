@@ -176,8 +176,8 @@ header {
 
 .bubble4 {
 	position: absolute;
-	left: 10vh;
-	top: 150vh;
+	left: -10vh;
+	top: 140vh;
 	/* Additional styling properties */
 	width: 50vh;
 	height: 50vh;
