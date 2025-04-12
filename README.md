@@ -4,7 +4,7 @@
 
 This project involved the design and development of a static website for Soapify, a brand dedicated to showcasing and promoting a diverse range of soap and hygiene products. The website aims to effectively communicate the brand's core values and product benefits through compelling narratives and intuitive design.
 
-## About Soapify (Brand Narrative)
+## About Soapify
 
 The name "Soapify" is a fusion of "soap" and "purify," reflecting the brand's identity:
 
@@ -13,17 +13,15 @@ The name "Soapify" is a fusion of "soap" and "purify," reflecting the brand's id
 
 The memorable and catchy brand name was strategically chosen to attract consumer attention and enhance recall. The website's "About" page further elaborates on this brand essence.
 
-## Key Features (Placeholder - Update with actual features)
+## Key Features
 
 *   Static website showcasing Soapify products.
-*   Dedicated "About" page explaining the brand story.
-*   *(Add other relevant features)*
 
-## Technologies Used (Placeholder - Update with actual technologies)
+## Technologies Used
 
 *   HTML
 *   CSS
-*   *(Add other relevant technologies, e.g., JavaScript frameworks)*
+*   Javascript
 
 ## How to View
 
